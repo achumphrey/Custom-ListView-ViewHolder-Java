@@ -11,17 +11,15 @@ import android.widget.Toast;
 
 public class CustomAdapter extends BaseAdapter {
 
-    Context context;
-    String ourAppsList[];
-    int imagesList[];
-    String description[];
-    LayoutInflater inflater;
+    private String[] ourAppsList;
+    private int[] imagesList;
+    private String[] description;
+    private LayoutInflater inflater;
 
-    public CustomAdapter(Context context,
-                         String[] ourAppsList,
-                         int[] imagesList,
-                         String[] description) {
-        this.context = context;
+    CustomAdapter(Context context,
+                  String[] ourAppsList,
+                  int[] imagesList,
+                  String[] description) {
         this.ourAppsList = ourAppsList;
         this.imagesList = imagesList;
         this.description = description;

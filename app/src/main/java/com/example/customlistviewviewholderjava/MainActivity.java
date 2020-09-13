@@ -8,7 +8,7 @@ import android.widget.ListView;
 public class MainActivity extends AppCompatActivity {
 
     // Array of App Titles
-    String OurApps[] = {
+    String[] OurApps = {
             "Master Android App",
             "Master Android App Pro",
             "Master Flutter App",
@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
     };
 
     // Array of Images
-    int Images[] = {
+    int[] Images = {
             R.drawable.facebook,
             R.drawable.googleplus,
             R.drawable.instagram,
