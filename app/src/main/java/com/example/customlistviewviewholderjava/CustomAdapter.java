@@ -41,13 +41,6 @@ public class CustomAdapter extends BaseAdapter {
         return position;
     }
 
-    private class ViewHolder{
-
-        TextView titleView;
-        TextView descView;
-        ImageView imgView;
-    }
-
     @Override
     public View getView(final int position, View view, ViewGroup parent) {
 
@@ -95,5 +88,12 @@ public class CustomAdapter extends BaseAdapter {
 
 
         return view;
+    }
+
+    private static class ViewHolder{
+
+        TextView titleView;
+        TextView descView;
+        ImageView imgView;
     }
 }
